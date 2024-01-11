@@ -8,13 +8,16 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 100px;
   background-color: #fefefe;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .main-title{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 h2{
   padding: 20px 0px;
@@ -23,4 +26,26 @@ h2{
 padding-bottom: 20px;
 width: 60%;
 text-align: center;
+}
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 30px;
+}
+.checkbox-main{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 60%;
+}
+.checkbox-content{
+  display: flex;
+  justify-content: space-around;
+}
+.button-next{
+  position: absolute;
+  bottom: -50%;
+  right: 20%;
 }

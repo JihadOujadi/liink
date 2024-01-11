@@ -16,19 +16,47 @@
   <body>
     <header>
       <div class="main-title">
-        <h1 class="title">Checklist de création et d'optimisation du site web de l'asso</h1>
+        <h1 class="title">
+          Checklist de création et d'optimisation du site web de l'asso
+        </h1>
         <h2>Optimisation TECHNIQUE Partie 1</h2>
         <p class="title-content">
           Cette checklist a pour but de permettre une création du site de l'asso
           de manière optimal et performante tant pour l'expérience utilisateur
           que pour le référencement naturel
         </p>
+        <p>
+          Avant toute chose, il convient de définir si le site sera un One page
+          ou un multipage. <br />Dans le cas d'un One page, à savoir une seule
+          page de site (le Blog sera considéré comme une page annexe et non une
+          2ème page du site), le site devra être construit en section. Chaque
+          section devra apparaître dans le menu. L'accès à chaque section depuis
+          le menu se fera par des ancres.<br />
+          Si le site est un Multipage, les liens dans le menu devront être
+          nommés de manière cohérente et simple. Chaque page devra apparaître
+          dans le menu et afin d'optimiser au mieux les liens internes, dans
+          chaque section de présentation sur la Home page, un bouton dit CTA de
+          redirection vers la dite page doit être présent
+        </p>
       </div>
     </header>
     <main>
       <div class="checkbox-main">
         <div class="checkbox-content">
-          <h3 class="checkbox-title"></h3>
+          <h3 class="checkbox-title">Arborescence</h3>
+          <p class="checkbox-text">
+            L'Arborescence est un point important et incontournable lors de la
+            création du site. Il faut s'assurer du cheminement logique entre
+            chaque page.
+          </p>
+          <input
+            type="checkbox"
+            aria-label="case à cocher obligatoire"
+            class="checkbox-checked"
+          />
+        </div>
+        <div class="checkbox-content">
+          <h3 class="checkbox-title">Permaliens</h3>
           <p class="checkbox-text"></p>
           <input
             type="checkbox"
@@ -37,7 +65,7 @@
           />
         </div>
         <div class="checkbox-content">
-          <h3 class="checkbox-title"></h3>
+          <h3 class="checkbox-title">URL</h3>
           <p class="checkbox-text"></p>
           <input
             type="checkbox"
@@ -46,7 +74,7 @@
           />
         </div>
         <div class="checkbox-content">
-          <h3 class="checkbox-title"></h3>
+          <h3 class="checkbox-title">Extension YOAST SEO</h3>
           <p class="checkbox-text"></p>
           <input
             type="checkbox"
@@ -55,16 +83,7 @@
           />
         </div>
         <div class="checkbox-content">
-          <h3 class="checkbox-title"></h3>
-          <p class="checkbox-text"></p>
-          <input
-            type="checkbox"
-            aria-label="case à cocher obligatoire"
-            class="checkbox-checked"
-          />
-        </div>
-        <div class="checkbox-content">
-          <h3 class="checkbox-title"></h3>
+          <h3 class="checkbox-title">Favicon</h3>
           <p class="checkbox-text"></p>
           <input
             type="checkbox"
@@ -79,5 +98,12 @@
     </main>
     <footer></footer>
   </body>
+  <script>
+    const buttonNextPage = document.getElementById("page2");
+
+    buttonNextPage.addEventListener("click", function () {
+      window.location.href = "/page-2.html";
+    });
+  </script>
   <script src="/script.js"></script>
 </html>

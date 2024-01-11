@@ -97,11 +97,23 @@
           <button id="page3">Suivant</button>
         </div>
         <div class="button-prev">
-          <button id="PrevPage2">Précédent</button>
+          <button id="prevPage1">Précédent</button>
         </div>
       </div>
     </main>
     <footer></footer>
   </body>
+  <script>
+    const buttonNextPage = document.getElementById('page3');
+
+buttonNextPage.addEventListener("click", () => {
+    window.location.href = "/page-3.html";
+});
+
+const buttonPrevPage = document.getElementById('prevPage1');
+buttonPrevPage.addEventListener("click", () => {
+  window.location.href = "/";
+})
+  </script>
   <script src="/script.js"></script>
 </html>
