@@ -63,9 +63,11 @@
           <div class="checkbox-content">
             <h3 class="checkbox-title">Permaliens</h3>
             <p class="checkbox-text">
-              L'Arborescence est un point important et incontournable lors de la
-              création du site. Il faut s'assurer du cheminement logique entre
-              chaque page.
+              Les permaliens correspondent aux urls du site. Wordpress propose
+              de définir la structure que l'on souhaite de ces Urls. Pour ce
+              faire, il suffit de se rendre dans
+              <em>Réglages > Permaliens</em> et de choisir
+              <em>Titre de la publication</em>.
             </p>
           </div>
           <div class="checkbox">
@@ -117,13 +119,13 @@
         </div>
       </div>
       <div class="button-next">
-        <button id="page2">Suivant</button>
+        <button id="bouton" class="bouton">Suivant</button>
       </div>
     </main>
     <footer></footer>
   </body>
   <script>
-    const buttonNextPage = document.getElementById("page2");
+    const buttonNextPage = document.getElementById("bouton");
 
     buttonNextPage.addEventListener("click", function () {
       window.location.href = "/page-2.html";

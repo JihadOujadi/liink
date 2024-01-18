@@ -16,10 +16,10 @@
   <body>
     <header>
       <div class="main-title">
-        <h1 class="title">Checklist de création et d'optimisation du site web de l'asso</h1>
-        <h2 class="title">
-         Optimisation SEO
-        </h2>
+        <h1 class="title">
+          Checklist de création et d'optimisation du site web de l'asso
+        </h1>
+        <h2 class="title">Optimisation SEO</h2>
         <p class="title-content">
           Cette seconde partie traitera de la partie consacrée principalement au
           SEO et de son optimisation de base
@@ -94,26 +94,26 @@
       </div>
       <div class="button-container">
         <div class="button-next">
-          <button id="page3">Suivant</button>
+          <button id="bouton">Suivant</button>
         </div>
         <div class="button-prev">
-          <button id="prevPage1">Précédent</button>
+          <button id="prevBouton">Précédent</button>
         </div>
       </div>
     </main>
     <footer></footer>
   </body>
   <script>
-    const buttonNextPage = document.getElementById('page3');
+    const buttonNextPage = document.getElementById("bouton");
 
-buttonNextPage.addEventListener("click", () => {
-    window.location.href = "/page-3.html";
-});
+    buttonNextPage.addEventListener("click", () => {
+      window.location.href = "/page-3.html";
+    });
 
-const buttonPrevPage = document.getElementById('prevPage1');
-buttonPrevPage.addEventListener("click", () => {
-  window.location.href = "/";
-})
+    const buttonPrevPage = document.getElementById("prevBouton");
+    buttonPrevPage.addEventListener("click", () => {
+      window.location.href = "/";
+    });
   </script>
   <script src="/script.js"></script>
 </html>
