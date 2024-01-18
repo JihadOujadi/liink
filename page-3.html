@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -70,26 +70,11 @@
       </div>
       <div class="button-container">
         <div class="button-next">
-          <button id="bouton">Suivant</button>
-        </div>
-        <div class="button-prev">
-          <button id="prevBouton">Précédent</button>
+          <a href="/page-4.html" id="bouton" class="bouton-inactive">Suivant</a>
         </div>
       </div>
     </main>
     <footer></footer>
   </body>
-  <script>
-    const buttonNextPage = document.getElementById("bouton");
-
-    buttonNextPage.addEventListener("click", () => {
-      window.location.href = "/page-4.html";
-    });
-
-    const buttonPrevPage = document.getElementById("prevBouton");
-    buttonPrevPage.addEventListener("click", () => {
-      window.location.href = "/page-2.html";
-    });
-  </script>
   <script src="/script.js"></script>
 </html>
