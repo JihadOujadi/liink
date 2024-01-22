@@ -75,7 +75,7 @@ img{
 
 .button-next {
   position: absolute;
-  bottom: -20%;
+  bottom: -10%;
   right: 0;
 }
 .bouton-inactive {
@@ -98,4 +98,11 @@ a {
 .button-active:hover {
   background: #226d68;
   color: #fff
+}
+.pagination{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #696969;
+  font-size: 14px;
 }
