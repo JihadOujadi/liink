@@ -7,7 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   padding: 100px;
-  background-color: #fefefe;
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,7 +42,8 @@ main {
   flex-direction: column;
   position: relative;
   margin-top: 30px;
-  border: 2px solid #D3D3D3;
+  border: 2px solid #F0F0F2;
+  background: #F8F8FF;
   width: 60%;
 }
 .checkbox-main {
@@ -50,12 +51,15 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   gap: 30px;
-  padding: 25px 30px;
+  padding: 30px 35px;
 }
 .checkbox-container {
   display: flex;
   align-items: flex-start;
 
+}
+.checkbox-title{
+  text-transform: uppercase;
 }
 .checkbox-content {
   display: flex;
@@ -83,6 +87,7 @@ img{
 }
 a {
   text-decoration: none;
+  color: #006400
 }
 .button-active {
   background: none;
@@ -101,8 +106,8 @@ a {
 }
 .pagination{
   position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #696969;
+  bottom: 2%;
+  right: 3%;
+  color: #808080;
   font-size: 14px;
 }
