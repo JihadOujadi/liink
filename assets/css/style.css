@@ -76,10 +76,19 @@ img{
   font-size: 12px;
   width: 80%;
 }
+ul li{
+  font-size: 12px;
+  list-style-type: none;
+}
+ul li::before{
+  content: "•";
+  color: #006400;
+  padding-right: 5px;
+}
 
 .button-next {
   position: absolute;
-  bottom: -10%;
+  bottom: -50px;
   right: 0;
 }
 .bouton-inactive {
@@ -87,7 +96,7 @@ img{
 }
 a {
   text-decoration: none;
-  color: #006400
+  color: #226d68
 }
 .button-active {
   background: none;
